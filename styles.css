@@ -2,6 +2,7 @@ body{
     background-color: #F0E7DC;
 }
 
-h1 {
+.text-center {
     font-family: 'Forum', cursive;
+    font-size: 3rem;
 }
