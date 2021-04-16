@@ -2,7 +2,23 @@ body{
     background-color: #F0E7DC;
 }
 
-.text-center {
-    font-family: 'Forum', cursive;
-    font-size: 3rem;
+#coming-soon-container{
+    height: auto;
 }
+
+#coming-soon.text-center {
+    font-family: 'Forum', cursive;
+    font-size: 5rem;
+    margin-top: 10%;
+}
+
+#pistachio {
+    font-family: 'Forum', cursive;
+    font-size: 2rem;
+    margin-top: 10%;
+}
+#the-brand{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
