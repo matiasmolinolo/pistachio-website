@@ -26,12 +26,13 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
         <a class="navbar-brand ms-4" href="#">
             <div class="container">
                 <div class="row row-cols-1">
-                    <div class="col">PISTACHIO</div>
-                    <div class="col">THE BRAND</div>
+                    <div class="col-6 align-self-center text-center" id="pistachio-logo">PISTACHIO</div>
+                    <div class="w-100"></div>
+                    <div class="col-6 align-self-center text-center" id="pistachio-logo-brand">THE BRAND</div>
                 </div>
 
             </div>
@@ -51,8 +52,9 @@
                     <li><a class="dropdown-item" href="#">Bottoms</a></li>
                     <li><a class="dropdown-item" href="#">Jackets</a></li>
                   </ul>
+                  
               </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">Colecciones</a>
             </li>
             <li class="nav-item">
@@ -70,6 +72,37 @@
         </div>
     </nav>
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="images/test_images/foto0.JPG" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/test_images/foto1.JPG" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/test_images/foto2.JPG" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/test_images/foto3.JPG" class="d-block w-100 img-fluid" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     
 
       
