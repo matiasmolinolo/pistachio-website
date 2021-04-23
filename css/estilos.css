@@ -42,4 +42,12 @@ body {
   font-size: 0.75rem;
   line-height: 0.75rem; }
 
+#video {
+  background-color: #f0eae1; }
+
+video {
+  width: 100vw;
+  max-height: 100vh;
+  background-size: contain; }
+
 /*# sourceMappingURL=estilos.css.map */
