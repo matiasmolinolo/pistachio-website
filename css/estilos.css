@@ -42,8 +42,10 @@ body {
   font-size: 0.75rem;
   line-height: 0.75rem; }
 
-#video {
-  background-color: #f0eae1; }
+#coming-soon-container {
+  width: 100%;
+  height: 100%;
+  background-color: #efeae2; }
 
 video {
   width: 100vw;
