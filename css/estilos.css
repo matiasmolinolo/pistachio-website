@@ -7,17 +7,14 @@ body {
 .navbar {
   background-color: #F0E7DC;
   line-height: 1.3rem;
-  color: #000000 im !important; }
+  color: #000000 !important; }
 
 .dropdown-menu {
   background-color: #E8DFCE;
   border: 0px; }
 
-.carousel-item {
-  height: 90vh;
-  min-height: 275px;
-  background: no-repeat center center scroll;
-  background-size: contain; }
+.nav-link:focus {
+  outline: none !important; }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-image: none !important; }

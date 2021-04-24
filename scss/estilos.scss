@@ -18,23 +18,17 @@ body{
 .navbar{
     background-color: $secondary;
     line-height: 1.3rem;
-    color: $text-color im !important;
+    color: $text-color !important;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: $tertiary;
     border: 0px;
 }
 
-.carousel-item {
-    height: 90vh;
-    min-height: 275px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-  }
+.nav-link:focus {
+    outline: none!important;
+}
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     background-image:none !important;
